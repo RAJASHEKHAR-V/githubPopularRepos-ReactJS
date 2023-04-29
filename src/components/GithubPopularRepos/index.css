@@ -1,0 +1,51 @@
+.bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popular-heading {
+  font-family: 'Lobster';
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.filter-card {
+  list-style-type: none;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.repos-card {
+  list-style-type: none;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .popular-heading {
+    font-size: 35px;
+  }
+
+  .filter-card {
+    width: 80%;
+  }
+  .repos-card {
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .popular-heading {
+    font-size: 45px;
+  }
+}

@@ -1,0 +1,136 @@
+.repo-item {
+  width: 30%;
+  background-color: #f8f8ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.avatar-image {
+  width: 40%;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.repo-name {
+  font-family: 'Roboto';
+  color: #e73959;
+  font-weight: 500;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.repo-group {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.count-image {
+  width: 20px;
+  height: 20px;
+  margin: 0px;
+  margin-right: 8px;
+}
+
+.star-count {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.fork-count {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.issue-count {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.failure-card {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  width: 30%;
+}
+
+.failure-heading {
+  font-family: 'Lobster';
+  color: #1e293b;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .repo-item {
+    width: 80%;
+  }
+  .avatar-image {
+    width: 50%;
+  }
+
+  .repo-name {
+    font-size: 20px;
+  }
+
+  .repo-group {
+    width: 50%;
+  }
+
+  .count-image {
+    width: 18px;
+    height: 18px;
+  }
+
+  .star-count {
+    font-size: 12px;
+  }
+
+  .fork-count {
+    font-size: 12px;
+  }
+
+  .issue-count {
+    font-size: 12px;
+  }
+
+  .failure-heading {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+  .repo-name {
+    font-size: 22px;
+  }
+
+  .star-count {
+    font-size: 14px;
+  }
+
+  .fork-count {
+    font-size: 14px;
+  }
+
+  .issue-count {
+    font-size: 14px;
+  }
+
+  .failure-heading {
+    font-size: 45px;
+  }
+}
